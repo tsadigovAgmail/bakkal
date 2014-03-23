@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Data/Data.iml" filepath="$PROJECT_DIR$/Data/Data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataAccess/DataAccess.iml" filepath="$PROJECT_DIR$/DataAccess/DataAccess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Model/Model.iml" filepath="$PROJECT_DIR$/Model/Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bakkal/bakkal-bakkal.iml" filepath="$PROJECT_DIR$/bakkal/bakkal-bakkal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/erp.iml" filepath="$PROJECT_DIR$/erp.iml" />
+    </modules>
+  </component>
+</project>
+
