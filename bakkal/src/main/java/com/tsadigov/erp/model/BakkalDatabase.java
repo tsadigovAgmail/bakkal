@@ -14,9 +14,9 @@ import com.tsadigov.erp.model.schema.StokKarti;
  */
 public class BakkalDatabase extends Database {
 
-    public static final int DB_VERSION=1;
+    public static final int DB_VERSION=13;
     public BakkalDatabase(Context context) {
-        super(context, "bakkal", null, DB_VERSION);
+        super(context, "bakkal2", null, DB_VERSION);
         _tables=new Table[]{
                 com.tsadigov.erp.model.schema.Bakiye.getInstance(),
                 com.tsadigov.erp.model.schema.StokKarti.getInstance()

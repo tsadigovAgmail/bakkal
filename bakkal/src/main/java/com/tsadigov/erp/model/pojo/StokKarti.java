@@ -25,4 +25,17 @@ public class StokKarti  extends PojoWrapper<com.tsadigov.erp.model.schema.StokKa
         com.tsadigov.erp.model.schema.StokKarti.Name.set(name ,_row);
     }
 
+    @Override
+    public String toString(){
+        return getName()+" : "+getPrice()+" $";
+    }
+
+    public Double getPrice() {
+        return com.tsadigov.erp.model.schema.StokKarti.Price.get(_row);
+    }
+
+
+    public void setPrice(Double price) {
+        com.tsadigov.erp.model.schema.StokKarti.Price.set(price, _row);
+    }
 }

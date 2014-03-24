@@ -11,7 +11,7 @@ import com.tsadigov.data.type.db.Character;
 public class ColumnHelper {
     public static ColumnType<Integer> I=new ColumnType("INT", new Int());
     public static ColumnType<Boolean> B=new ColumnType("INT", new Bool());
-    public static ColumnType<Double> N=new ColumnType("NUMBER", new com.tsadigov.data.type.db.Number());
+    public static ColumnType<Double> N=new ColumnType("DECIMAL(10,5)", new com.tsadigov.data.type.db.Number());
     public static ColumnType<String> C=new ColumnType("CHAR", new Character());
 
     public static <T>  ColumnType<T> getColumnType(Class<T> cls){

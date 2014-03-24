@@ -13,7 +13,6 @@ import com.tsadigov.data.type.ColumnType;
 public class Column<T> extends ColumnBase {
     ColumnType<T> _type;
 
-
     public Column(String name,ColumnType<T> type) {
         super(name);
         _type=type;
@@ -40,7 +39,6 @@ public class Column<T> extends ColumnBase {
     public Object getValue(IRow r){
         return get(r);
     }
-
 
     @Override
     public void transferTo(IRow row,ContentValues cv){
