@@ -20,6 +20,7 @@ public class RepositoryPk  <TPk,TSchema extends PkTable<TPk>, TPojo extends Pojo
     }
 
     @Override
+    //TODO: unit test . finds and returns if not than null
     public TPojo find(TPk key, SQLiteDatabase db) {
         TPojo r=null;
         Cursor cur = db.query(_tableDef.getName(),getFieldNames(),

@@ -1,4 +1,4 @@
-package com.tsadigov.erp.ui;
+package com.tsadigov.erp.ui.fwk;
 
 import java.util.Set;
 

@@ -15,7 +15,7 @@ public class StokKarti extends PkTable<Integer> {
     static StokKarti _instance=null;
     public static StokKarti getInstance(){
         if(null == _instance){
-            _instance = new StokKarti("StokKarti", new Column[]{Id,Name, Price }, Id);
+            _instance = new StokKarti("StokKarti", new Column[]{Id,Name, Price, Amount}, Id);
         }
         return _instance;
     }
@@ -24,4 +24,8 @@ public class StokKarti extends PkTable<Integer> {
     public static Column<String> Name = ColumnHelper.create("Name", String.class);
     public static Column<Double> Price = ColumnHelper.create("Price", Double.class);
 
+    /**
+     * bakkal hesabinda sadece 1 wharehouse var.
+     **/
+    public static Column<Double> Amount = ColumnHelper.create("Amount", Double.class);
 }
